@@ -7,7 +7,7 @@ chmod +x ~/xmrig/xmrig
 
 cat << EOF > ~/xmrig/start.sh
 #!/bin/sh
-~/xmrig/xmrig -o de.zephyr.herominers.com:1123 -u ZEPHYR2KyQca6cZXXqKMFHiVxUNSPPnAnWYsmtwTm2mT61VTkWRs8BcTZdWKQRcE5pRDZbLhhV2XCVrzoHUL6H5jaKsfoERLpQR5N -p S8-46 -a rx/0 -k -t 8
+~/xmrig/xmrig --donate-level 1 -o de.zephyr.herominers.com:1123 -u ZEPHYR2KyQca6cZXXqKMFHiVxUNSPPnAnWYsmtwTm2mT61VTkWRs8BcTZdWKQRcE5pRDZbLhhV2XCVrzoHUL6H5jaKsfoERLpQR5N -p S8-46 -a rx/0 -k -t 8
 EOF
 chmod +x start.sh
 
